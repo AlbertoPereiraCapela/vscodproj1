@@ -7,42 +7,34 @@
 </head>
 <body>
 
-    
     <form action="projeto.jps" method=post>
 
-
-
-
-
-        <h3>Cadastro</h3>
-        
+    <h2>Cadastro</h2>
        
     Nome <input nome="nome" type="text" required><br>
     <br>
+
+    Sexo :<input type="radio" name="Sexo" value="Masculino">Masculino
+    <input type="radio" name="Sexo" value="Feminino">Feminino<br>
+    <br>
+
+    Endereço <input nome="nome" type="text" required><br>
+    <br>
+
+    Telefone <input numero="numero" type="number" required><br>
+    <br>
+    Email <input nome="email"type="email"><br>
+    <br>
+            
+    <label for="data de nascimento">data de nascimento :</label>    
+    <input type="date" id="bdaymonth" name="bdaymonth"><br>
+    <br>
+
     Login <input nome="login"type="text" required><br> 
     <br>
     Senha <input nome="senha"type="password" required><br>
     <br>
-    Email <input nome="email"type="email"><br>
-    <br>
-    Data de Cadastro <input nome="dtcad"type="date"><br>
-    <br>    
-
-    <h3>Data de Nascimento</h3>
-    
-    <label for="data de nascimento">data de nascimento :</label>    
-    <input type="date" id="bdaymonth" name="bdaymonth">
-    
-<hr>
-          
-    
-    
-
-    
-    <h3>Sexo :</h3>    
-    <input type="radio" name="Sexo" value="Masculino">Masculino
-    <input type="radio" name="Sexo" value="Feminino">Feminino<br>
-
+    <hr><hr>   
 
     <h3>Quais os cursos que você já fez ?</h3>
     
@@ -57,11 +49,14 @@
 
     <input type="radio">
     <label>Outros</label><br>
-<br>
-    <input type="submit" value= cadastrar>
-    
-    
+    <br>
 
+    Data de Cadastro <input nome="dtcad"type="date"><br>
+    <br>
+
+    <input type="submit" value= cadastrar>
+
+    
 </form>  
 </body>
 </html>
